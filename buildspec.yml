@@ -3,7 +3,6 @@ phases:
   build:
     commands:
       - ls -la
-      - codebuild-breakpoint
       - cp -r $CODEBUILD_SRC_DIR_Source2/. $$CODEBUILD_SRC_DIR
       - ls -la
 artifacts:
