@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - ls -la
+      - cp -r $CODEBUILD_SRC_DIR_Artifact2/. $CODEBUILD_SRC_DIR
+      - ls -la
+artifacts:
+  files:
+    - ‘**.*’
