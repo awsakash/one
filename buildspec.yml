@@ -4,7 +4,7 @@ phases:
     commands:
       - ls -la
       - cd ..
-      -ls -la
+      - ls -la
       - cp -r $CODEBUILD_SRC_DIR_Source2/. $CODEBUILD_SRC_DIR
       - ls -la
 artifacts:
