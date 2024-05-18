@@ -4,6 +4,7 @@ phases:
     commands:
       - ls -la
       - printenv
+      - cp -r $CODEBUILD_SRC_DIR_SourceArtifact2/. $CODEBUILD_SRC_DIR
       - ls -la
 artifacts:
   files:
