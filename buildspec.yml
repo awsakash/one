@@ -6,6 +6,7 @@ phases:
       - printenv
       - cp -r $CODEBUILD_SRC_DIR_SourceArtifact2/. $CODEBUILD_SRC_DIR
       - ls -la
+      - pwd
 artifacts:
   files:
     - ‘**/*’
