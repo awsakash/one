@@ -9,5 +9,10 @@ phases:
       - pwd
 artifacts:
   files:
-    - ‘**/*’
-  base-directory: $CODEBUILD_SRC_DIR
+    - '**/*'
+
+
+
+
+
+
